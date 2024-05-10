@@ -1,5 +1,6 @@
-name:"pipeline teste"
-on:["push","pull_request"]
+name: "pipeline teste"
+on: ["push","pull_request"]
+
 jobs:
   depchecktest:
     runs-on: ubuntu-latest
